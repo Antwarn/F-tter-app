@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.requests-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.request {
+    width: 48%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.request-profile-pic {
+    width: 30%;
+    margin-right: 15px;
+}
+
+.request-profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.request-info {
+    width: 70%;
+}
+
+.request-info h2 {
+    margin: 0 0 10px;
+}
+
+.accept-btn {
+    width: 49%;
+    padding: 5px;
+    margin-right: 1%;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.reject-btn {
+    width: 49%;
+    padding: 5px;
+    margin-right: 1%;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+.reject-btn {
+    margin-right: 0;
+}
